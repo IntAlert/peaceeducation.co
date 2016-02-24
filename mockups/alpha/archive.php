@@ -33,9 +33,12 @@
               <div class="col-md-6">
                 <div class="block-article">
 
-                    <img src="http://lorempixel.com/500/200/" class="img-responsive" alt="Responsive image">
+                    <a href="post.php">
+                    	<img src="http://lorempixel.com/500/200/" class="img-responsive" alt="Responsive image">
+                    </a>
+
                     <h3>
-                        <a href="#">Publication or Resource</a>
+                        <a href="post.php">Publication or Resource</a>
                     </h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

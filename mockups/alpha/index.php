@@ -53,16 +53,15 @@ $featuredContentTitles = [
 
 
                     <div class="newsletter-cta">
-                        <p>
-                            Our partners are constantly adding new content to this site.
-                        </p>
 
                         <form class="form-inline">
                           <div class="form-group">
-                            <label for="exampleInputEmail2">Your Email</label>
+                            <label for="exampleInputEmail2">Sign up for updates. Our partners are constantly adding new content:</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
                             <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
                           </div>
-                          <button type="submit" class="btn btn-default">Get PeaceEducation.co updates</button>
+                          <button type="submit" class="btn btn-default">Sign up</button>
+                          
                         </form>
                     </div>
 
