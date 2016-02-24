@@ -1,0 +1,67 @@
+{
+    "File": {
+        "ID": "411b78f9-8a7d-991a-d4fd-c80c7d1c168e",
+        "Path": "/Users/asmt3/Sites/clients/intalert/peaceeducation.co/mockups/alpha/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "peaceeducation.co",
+            "Type": "php",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "alpha",
+            "Infrastructure": "alpha"
+        },
+        "Infrastructure": [
+            {
+                "Name": "alpha",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "411b78f9-8a7d-991a-d4fd-c80c7d1c168e",
+                "Path": "/Users/asmt3/Sites/clients/intalert/peaceeducation.co/mockups/alpha/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "peaceeducation.co",
+                    "Type": "php",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "alpha",
+                    "Infrastructure": "alpha"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "alpha",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "peaceeducation.co"
+        }
+    ],
+    "Edges": []
+}
