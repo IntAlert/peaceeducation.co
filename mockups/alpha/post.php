@@ -16,8 +16,6 @@
         <?php require('inc/header.inc.php'); ?>
 
 
-        
-
         <!-- Add your site or application content here -->
         
 
