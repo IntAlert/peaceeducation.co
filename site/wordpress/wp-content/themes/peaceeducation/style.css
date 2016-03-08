@@ -4367,6 +4367,8 @@ header#masthead {margin-top:48px;} /* mobile first */
     margin-top: 3px;
     width: 100%;
 }
+#primary-sidebar .widget_mailchimpsf_widget {display:none;}
 @media screen and (min-width: 1008px) {
+	#primary-sidebar .widget_mailchimpsf_widget {display:block;}
 	footer .widget_mailchimpsf_widget {display:none;}
 }
