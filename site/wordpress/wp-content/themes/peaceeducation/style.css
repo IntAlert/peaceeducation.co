@@ -4321,7 +4321,15 @@ a.post-thumbnail:hover {
 }
 
 
-/*Modifications*/
+/* Alert Modifications */
+
+/*remove comment website req*/
 .comment-form-url {
 	display: none;
+}
+
+/* mobile social media buttons shouldn't overlap title bar*/
+header#masthead {margin-top:48px;} /* mobile first */
+@media screen and (min-width: 401px) {
+	header#masthead {margin-top:0;}
 }
