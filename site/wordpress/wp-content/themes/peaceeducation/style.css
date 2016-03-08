@@ -4330,6 +4330,27 @@ a.post-thumbnail:hover {
 
 /* mobile social media buttons shouldn't overlap title bar*/
 header#masthead {margin-top:48px;} /* mobile first */
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 980px) {
 	header#masthead {margin-top:0;}
+}
+
+/*Left bar*/
+@media screen and (min-width: 1008px) {
+	.site-description {font-size:14px;}
+	.footer-sidebar .widget, .primary-sidebar .widget {
+	    font-size: 14px;
+	    line-height: 1.5;
+	}
+}
+
+/*Article*/
+.site-content .entry-header,
+.site-content .entry-content,
+.site-content .entry-summary,
+.page-content {
+	max-width:80%;
+}
+.site-content .entry-meta {
+	width:100%;
+	max-width:100%;
 }
